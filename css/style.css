@@ -1,0 +1,121 @@
+/* figtree-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/figtree-v5-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* figtree-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/figtree-v5-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.box {
+  height: 300px;
+  width: 300px;
+  background-color: aqua;
+  box-shadow: 8px 8px 0px 0px #000;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4d04e;
+}
+.card {
+  background-color: white;
+  width: 384px;
+  border: 1px solid #111;
+  border-radius: 20px;
+  box-shadow: 8px 8px 0px 0px #000;
+  padding: 24px;
+}
+.card__badge-text {
+  color: #111;
+  font-family: "Figtree", sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 21px;
+}
+.card__badge {
+  display: flex;
+  padding: 4px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  background: #f4d04e;
+  margin-bottom: 12px;
+  margin-top: 24px;
+  width: 82px;
+}
+.card__published-data {
+  color: #111;
+
+  /* Body S (Regular) */
+  font-family: "Figtree", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px; /* 21px */
+  margin-bottom: 12px;
+}
+.card__title {
+  color: #111;
+
+  /* Heading */
+  font-family: Figtree;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px; /* 36px */
+  margin-bottom: 12px;
+  align-self: stretch;
+}
+.card__description {
+  color: #7f7f7f;
+
+  /* Body M */
+  font-family: Figtree;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 24px */
+  margin-bottom: 24px;
+}
+.card__auther {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.card__auther-name {
+  color: #111;
+
+  /* Body S (Bold) */
+  font-family: Figtree;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 21px */
+}
+.card__title-link:hover {
+  color: #f4d04e;
+}
+.card__title-link {
+  color: #111;
+}
